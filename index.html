@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Mi Agenda Multicapas</title>
+    <link type="text/css" rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU"
+        crossorigin="anonymous">
+    
+</head>
+<body>
+    <div class="Title"><h1>Agenda Multicapas</h1></div>
+    <form id="form">
+    <div class="log">
+        <label for="">Nombre:</label>
+        <input type="" id="name" class="name">
+    
+        <label for="">Apellido:</label>
+        <input type="" id="lastName" class="lastName">
+    
+        <label for="">Numero:</label>
+        <input type="" id="phone" class="phone">
+
+        <button class="btn-add-contact" type="submit" id="Send">Guardar</button>
+    </div>
+    </form>
+    <div id="Scrollbar" class="dtabla">
+        <table>
+            <thead>
+                <tr>
+                    <th>
+                        Nombre
+                    </th>
+                    <th>
+                        Apellido
+                    </th>
+                    <th>
+                        Telefono
+                    </th>
+                </tr>
+            </thead>
+            <tbody id="data"></tbody>
+        </table>
+    </div>
+    <script src="fuctions.js"></script>
+</body>
+</html>
